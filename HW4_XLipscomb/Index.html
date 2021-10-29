@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang = "en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.js"></script>
+        
+        <meta charset="UTF-8">
+        <title> HW4 </title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link
+        rel = "stylesheet"
+        href="https://use.fontawesome.com/release/v5.07/css/all.css"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+        
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <i class="fas fa-square-root-alt"></i>
+
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    </head>
+
+    <body style="background-color: honeydew;" >
+        <header>
+    
+            <h1 style= "color: darksalmon;text-align:center;"> HW 2 </h1>
+            <form action="morsecode.html" style="text-align: center; font-family: 'Festive', cursive;">
+        </header>
+
+        <label for = "inputfeild">Password</label>
+        <input style="padding: 10px; width: 100%; display: inline-flex; margin: 0 auto; " type="text" id="input1" name="input1" placeholder= "Please enter a String: "><br>
+        <input type="button" onclick="Password();" id="b2d" class="pure-button" value="Calculate"></button><br>
+        
+        <label for="html">AES Encrypted:</label>
+        <p  &nbsp; &nbsp; id="ans1"> 
+        </p> <br>
+        <label for="html">SHA1 Encrypted:</label>
+        <p  &nbsp; &nbsp; id="ans2"> 
+        </p> <br>
+        <label for="html">SHA224 Encrypted::</label>
+        <p  &nbsp; &nbsp; id="ans3"> 
+        </p> <br>
+        <label for="html">SHA256 Encrypted:</label>
+        <p  &nbsp; &nbsp; id="ans4"> SHA256 Encrypted:
+        </p> <br>
+       
+       
+       
+        <label for = "inputfeild">Binary to Number</label>
+        <input style="padding: 10px; width: 100%; display: inline-flex; margin: 0 auto; " type="text" id="input2" name="input2" placeholder= "Please enter a binary number: "><br>
+        <input type="button" onclick="tob2d()" id="b2d" class="pure-button" value="Number"></button>
+        <p id="ans5">
+        </p>
+           
+        <label for = "inputfeild">Number to Binary</label>
+        <input style="padding: 10px; width: 100%; display: inline-flex; margin: 0 auto; " type="text" id="input3" name="input3" placeholder= "Please enter an Integer: "><br>
+        <input type="button" onclick="tod2b();" id="d2b" class="pure-button" value="Binary"></button>
+        <p id="ans6">
+        </p>
+           
+           
+           
+           
+           
+           
+           
+           
+           
+            <script src="Script.js"></script>
+     </body>
+</html>
